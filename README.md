@@ -1,4 +1,4 @@
-# Cachet (self-hosted status page)
+# Cachet
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cachet (self-hosted status page) is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://cachethq.io/
+Cachet is an open‑source status page system that lets organizations communicate incidents, maintenance, and system health to their users. It provides a customizable, self‑hosted web interface, a JSON API for automation, and features like incident tracking, metrics, subscriber management, and webhook integrations. Trusted by thousands of companies, Cachet helps build transparency and trust during downtime.
+
+**Areas:** Company · OpenSource · StatusPage · IncidentManagement · Monitoring
+
+## Cachet on APIs.io
+
+Everything profiled for Cachet is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cachethq/](https://apis.io/providers/cachethq/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Cachet Cachet API](https://apis.io/apis/cachethq/cachethq-cachet-api/) — The Cachet API from Cachet — 3 operation(s) for cachet.
+- [Cachet Component Groups API](https://apis.io/apis/cachethq/cachethq-component-groups-api/) — The Component Groups API from Cachet — 2 operation(s) for component groups.
+- [Cachet Components API](https://apis.io/apis/cachethq/cachethq-components-api/) — The Components API from Cachet — 2 operation(s) for components.
+- [Cachet Incident Templates API](https://apis.io/apis/cachethq/cachethq-incident-templates-api/) — The Incident Templates API from Cachet — 2 operation(s) for incident templates.
+- [Cachet Incident Updates API](https://apis.io/apis/cachethq/cachethq-incident-updates-api/) — The Incident Updates API from Cachet — 2 operation(s) for incident updates.
+- [Cachet Incidents API](https://apis.io/apis/cachethq/cachethq-incidents-api/) — The Incidents API from Cachet — 2 operation(s) for incidents.
+- [Cachet Metric Points API](https://apis.io/apis/cachethq/cachethq-metric-points-api/) — The Metric Points API from Cachet — 2 operation(s) for metric points.
+- [Cachet Metrics API](https://apis.io/apis/cachethq/cachethq-metrics-api/) — The Metrics API from Cachet — 2 operation(s) for metrics.
+- [Cachet Schedule Updates API](https://apis.io/apis/cachethq/cachethq-schedule-updates-api/) — The Schedule Updates API from Cachet — 2 operation(s) for schedule updates.
+- [Cachet Schedules API](https://apis.io/apis/cachethq/cachethq-schedules-api/) — The Schedules API from Cachet — 2 operation(s) for schedules.
+- [Cachet Subscribers API](https://apis.io/apis/cachethq/cachethq-subscribers-api/) — The Subscribers API from Cachet — 2 operation(s) for subscribers.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Cachethq Webhooks](https://apis.io/asyncapis/cachethq/cachethq-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Cachet Agentic Access](https://apis.io/agentic-access/cachethq/cachethq-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Component](https://apis.io/schemas/cachethq/cachethq-component/)
+- [ComponentGroup](https://apis.io/schemas/cachethq/cachethq-component-group/)
+- [Incident](https://apis.io/schemas/cachethq/cachethq-incident/)
+- [Metric](https://apis.io/schemas/cachethq/cachethq-metric/)
+- [Schedule](https://apis.io/schemas/cachethq/cachethq-schedule/)
+- [Update](https://apis.io/schemas/cachethq/cachethq-update/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Cachethq Context](https://apis.io/jsonld/cachethq/cachethq-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Cachet API Rules](https://apis.io/rules/cachethq/cachethq-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cachet Authentication](https://apis.io/security/cachethq/cachethq-authentication/)
+- [Cachet Domain Security](https://apis.io/security/cachethq/cachethq-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cachet Rate Limits](https://apis.io/rate-limits/cachethq/cachethq-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cachethq.io/)
+- [Documentation](https://cachethq.io/docs)
+- [API reference](https://cachethq.io/docs/api-reference/introduction)
+- [Changelog](https://cachethq.io/docs/v3.x/changelog)
+- [Blog](https://blog.cachethq.io)
+- [GitHub](https://github.com/cachethq)
+
+## API Evangelist rating
+
+**Kin Score 46.0** — developing · rubric 0.27.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.9 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 41.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cachethq/](https://apis.io/providers/cachethq/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cachet: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cachethq/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
